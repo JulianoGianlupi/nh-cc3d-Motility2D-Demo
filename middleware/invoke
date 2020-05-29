@@ -1,0 +1,6 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C @tool/bin/Mot2DDemoCC3D.sh -t Mot2DDemoCC3D \
+                         -u compucell3d-4.1.1 \
+                         -w captive \
+                         -r none
