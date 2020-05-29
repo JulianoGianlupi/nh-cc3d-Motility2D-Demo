@@ -29,15 +29,15 @@
       <Energy Type1="Medium" Type2="Medium">10.0</Energy>
       <Energy Type1="Medium" Type2="MotCell">10.0</Energy>
       <Energy Type1="Medium" Type2="MotCell2">10.0</Energy>
-      <Energy Type1="MotCell" Type2="MotCell">10.0</Energy>
-      <Energy Type1="MotCell" Type2="MotCell2">10.0</Energy>
-      <Energy Type1="MotCell2" Type2="MotCell2">10.0</Energy>
+      <Energy Type1="MotCell" Type2="MotCell">25.0</Energy>
+      <Energy Type1="MotCell" Type2="MotCell2">25.0</Energy>
+      <Energy Type1="MotCell2" Type2="MotCell2">25.0</Energy>
       <NeighborOrder>4</NeighborOrder>
    </Plugin>
    
    <Plugin Name="ImplicitMotility">
-        <MotilityEnergyParameters CellType="MotCell" LambdaMotility="25"/>
-        <MotilityEnergyParameters CellType="MotCell2" LambdaMotility="15"/>
+        <MotilityEnergyParameters CellType="MotCell" LambdaMotility="40"/>
+        <MotilityEnergyParameters CellType="MotCell2" LambdaMotility="25"/>
    </Plugin>
 
    <Steppable Type="BlobInitializer">
@@ -45,8 +45,8 @@
    <!-- Initial layout of cells in the form of spherical (circular in 2D) blob -->
        <Region>
           <Center x="128" y="128" z="0"/>
-          <Radius>51</Radius>
-          <Gap>0</Gap>
+          <Radius>100</Radius>
+          <Gap>10</Gap>
           <Width>7</Width>
           <Types>MotCell,MotCell2</Types>
        </Region>
