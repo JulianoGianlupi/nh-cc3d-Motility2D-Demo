@@ -45,8 +45,8 @@
    <!-- Initial layout of cells in the form of spherical (circular in 2D) blob -->
        <Region>
           <Center x="128" y="128" z="0"/>
-          <Radius>51</Radius>
-          <Gap>0</Gap>
+          <Radius>70</Radius>
+          <Gap>10</Gap>
           <Width>7</Width>
           <Types>MotCell,MotCell2</Types>
        </Region>
