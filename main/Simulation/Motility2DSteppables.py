@@ -1,8 +1,6 @@
 
 from cc3d.core.PySteppables import *
 
-import numpy as np
-import numpy.linalg as nalg
 
 class Motility2DSteppable(SteppableBasePy):
 
@@ -20,14 +18,7 @@ class Motility2DSteppable(SteppableBasePy):
         type here the code that will run every frequency MCS
         :param mcs: current Monte Carlo step
         """
-
-        for cell in self.cell_list:
-
-            print("\n cell.biasVecX = ",cell.biasVecX)
-            print("\n cell.biasVecY = ",cell.biasVecY)
-            print("\n cell.biasVecZ = ",cell.biasVecZ)
-            print("\n norm = ", nalg.norm([cell.biasVecX,cell.biasVecY,cell.biasVecZ]))
-            break
+        pass
 
     def finish(self):
         """
