@@ -46,7 +46,7 @@
        <Region>
           <Center x="128" y="128" z="0"/>
           <Radius>70</Radius>
-          <Gap>10</Gap>
+          <Gap>7</Gap>
           <Width>7</Width>
           <Types>MotCell,MotCell2</Types>
        </Region>
