@@ -1,5 +1,5 @@
 #!/bin/sh
-
+ 
 #made with help from Steven Clark
 
 current_directory=$(pwd)
